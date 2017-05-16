@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://pm.vaspp.com:82/onefonecall_services/';
+$config['base_url'] = 'http://onefonecall-services/';
 
 /*
 |--------------------------------------------------------------------------
