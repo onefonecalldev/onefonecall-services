@@ -74,10 +74,10 @@ $active_group = 'default';
 $query_builder = TRUE;
 
 $db['default'] = array(
-	'dsn'	=> '',
+	'dsn'	=> 'mysql:dbname=onefonecall_db;unix_socket=/cloudsql/onefonecall-test-167007:asia-east1:ofc-instance',
 	'hostname' => 'localhost',
 	'username' => 'root',
-	'password' => 'vaspp@123',
+	'password' => 'ofc-sql',
 	'database' => 'onefonecall_db',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
